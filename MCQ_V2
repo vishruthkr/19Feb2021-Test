@@ -1,0 +1,120 @@
+Git with GitHub & Jenkins Fundamentals Training – Post Assessment: V2 - 19 Feb 2021
+
+Note: Participants need to select at least one answer from multiple choice questions but few questions can have multiple answers, in which case choose as many right answers as possible
+
+1.	Which command creates a new Git repository in the client?
+a.	git create
+b.	git add .
+c.	git new
+d.	git init
+
+2.	Identify the correct command to configure email in Git.
+a.	git config -global user.email user@email.com 
+b.	git config --global user.email user@email.com
+c.	git config -global user.mail user@email.com 
+d.	git config --global user.mail user@email.com
+
+3.	Which command is used to send local changes to the remote Git server?
+a.	git send commit
+b.	git commit --push
+c.	git push origin
+d.	git fetch
+
+4.	Which file would you create if you do not want Git to track changes relating to few files?
+a.	.donottrack
+b.	.exclude
+c.	.gitignore
+d.	.ignore
+
+5.	A local Git repository can have remote references to how many Git server URLs?
+a.	Only one
+b.	Max 2
+c.	Depends on the configuration
+d.	There is no limit on the number of remotes a local Repo can point to
+
+6.	How can one identify if a given folder in the client is a Git repository or not? Pick one or more correct answers.
+a.	Look for .git hidden folder
+b.	Run git status command and check if it returns any meaningful information
+c.	Run git init command
+d.	No, it is not possible to identify
+ 
+7.	What is the difference between Clone & Fork with respect to a GitHub Repository?
+a.	Clone is a copy of the repository on the server while Fork is creating a local copy
+b.	Fork is a copy of the repository on the server while Clone is creating a local copy
+c.	There is not much difference and both commands can be used interchangeably
+
+8.	Which command can be used to create a new Branch called ‘new_branch’ locally?
+a.	git create branch new_branch
+b.	git checkout -b new_branch 
+c.	git branch new_branch
+d.	git new branch new_branch
+
+9.	Which Git command can be used to selectively choose commits?
+a.	git select
+b.	git cherry-pick
+c.	git pick
+d.	git choose
+
+10.	Which of the following is true regarding Git checkout command?
+a.	It can be used to create a new branch
+b.	It is used to switch the code base to any specific commit/snap-shot
+c.	It can be used to view changes in a specific commit
+d.	If not wisely used, it can possibly result in a detached HEAD status
+
+11.	Which Git command can be used to save temporary & incomplete changes in the Repository?
+a.	git save
+b.	git stack
+c.	git stash
+d.	git temp
+e.	
+12.	What can be done if a Git repository on the server gets deleted by accident? Pick all correct answers.
+a.	Only possible option is to restore it from the back-up (tape/disk)
+b.	The code can be restored by pushing the repo from a latest code base from a developer machine but all Git history would be lost
+c.	The code can be restored by pushing the repo from a latest code base from a developer machine with all git history intact
+
+13.	What’s the relation between Hudson & Jenkins?
+a.	They are not related
+b.	Hudson is the recent release of Jenkins
+c.	Jenkins originated from Hudson
+d.	They both refer to the same product
+
+14.	Pick all that is needed to Integrate Jenkins with GitHub Server for CI
+a.	Git Server credentials (SSH keys or username & password)
+b.	Git Server plugin installed on Jenkins
+c.	CI plugin installed on Jenkins
+d.	Maven 
+
+15.	What is the correct URL for configuring a webhook in GitHub? Pick one or more
+a.	http://your-jenkins-URL-with-port/github-web-hook/
+b.	http://your-jenkins-URL-with-port/github-webhook/
+c.	http://your-jenkins-URL-with-port/jobname/github-webhook/
+d.	http://your-jenkins-URL-with-port/jobname/webhook/
+
+16.	Which of the following Source Code plugins are installed on Jenkins upon choosing recommending plugins during installation of Jenkins
+a.	Git
+b.	TFS
+c.	Subversion
+d.	None
+
+17.	What is a Jenkins Agent or Slave? Pick one or more.
+a.	It is another Jenkins Server
+b.	It’s a light weight Jenkins worker 
+c.	It’s a Jenkins Server running on low configuration node
+d.	There is no difference between Jenkins Server & Agent
+
+18.	Pick all that is needed by Jenkins in order to build a Maven based Java Project.
+a.	Apache Tomcat Server
+b.	Compatible Maven & JDK
+c.	Git
+
+19.	What best defines a pipeline Job in Jenkins? Pick one or more.
+a.	A bunch of jobs that listen to the same message queue
+b.	A series of Jobs that are owned & run by the same user
+c.	A set of Jobs which define a certain workflow & dependency
+d.	There is nothing called pipeline Jobs in Jenkins
+
+20.	What is SCM Polling feature in Jenkins?
+a.	It is a call back mechanism for triggering jobs in Jenkins
+b.	It is a feature which will ensure SCM Tools to poll Jenkins for build status
+c.	It is a feature using which Jenkins can constantly poll SCM Tools for source code changes
+d.	None of the above
